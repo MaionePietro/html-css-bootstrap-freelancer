@@ -1,0 +1,14 @@
+:root {
+	--header: #29383A;
+	--green: #00BB71;
+	--gray: #344A4E;
+}
+
+.blu{
+    padding: 30px;
+    background-color: blue;
+}
+
+header{
+    background-color: var(--header);
+}
