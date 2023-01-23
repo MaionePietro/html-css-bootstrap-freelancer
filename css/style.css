@@ -3,16 +3,19 @@
 	--green: #00BB71;
 	--gray: #344A4E;
 }
-
+img{
+	max-width: 100%;
+}
 header{
     background-color: var(--header);
 }
-.start{
+.start,.about{
     background-color: var(--green);
 }
 
-
-
+.pm_avatar{
+	width: 25%;
+}
 
 
 
