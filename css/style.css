@@ -1,7 +1,8 @@
 :root {
 	--header: #29383A;
 	--green: #00BB71;
-	--gray: #344A4E;
+	--gray: #2C3E50;
+	--info: #3A546D;
 }
 img{
 	max-width: 100%;
@@ -17,8 +18,13 @@ header,
 .pm_avatar{
 	width: 20%;
 }
+.info{
+	background-color: var(--info);
+}
 
-
+footer{
+	background-color: var(--gray);
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
